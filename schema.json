@@ -24,6 +24,16 @@
       "type": "string",
       "description": "Prompt",
       "widget": "textarea"
+    },
+    "example": {
+      "type": "string",
+      "image1": "https://fakeimg.pl/720x480/282828/eae0d0/?text=input#.png",
+      "image2": "https://files.catbox.moe/4ggf21.png",
+      "image3": "https://fakeimg.pl/720x480/282828/eae0d0/?text=output#.png",
+      "image4": "https://files.catbox.moe/kz97qz.gif",
+      "line1": "Video size: 720x480 pixels",
+      "line2": "Video duration: 6 seconds",
+      "widget": "example"
     }
   },
   "buttons": [
