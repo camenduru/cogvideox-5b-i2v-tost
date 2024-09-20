@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-04/hyper-schema#",
+  "type": "object",
+  "properties": {
+    "readme": {
+      "type": "string",
+      "title": "CogVideoX 5B I2V: Image-to-Video Diffusion Models with An Expert Transformer",
+      "author": "Zhuoyi Yang, Jiayan Teng, Wendi Zheng, Ming Ding, Shiyu Huang, Jiazheng Xu, Yuanming Yang, Wenyi Hong, Xiaohan Zhang, Guanyu Feng, Da Yin, Xiaotao Gu, Yuxuan Zhang, Weihan Wang, Yean Cheng, Ting Liu, Bin Xu, Yuxiao Dong, Jie Tang",
+      "paper": "https://arxiv.org/abs/2408.06072",
+      "code": "https://github.com/THUDM/CogVideo",
+      "jupyter": "https://github.com/camenduru/CogVideoX-5B-jupyter",
+      "api": "https://github.com/camenduru/tost-api-examples/blob/main/v1/cogvideox-5b-i2v.ipynb",
+      "tags": [
+        "Image to Video"
+      ],
+      "widget": "readme"
+    },
+    "input_image_check": {
+        "type": "string",
+        "description": "Input Image URL",
+        "widget": "textarea"
+    },
+    "prompt": {
+      "type": "string",
+      "description": "Prompt",
+      "widget": "textarea"
+    }
+  },
+  "buttons": [
+    {
+      "id": "enter",
+      "label": "🥪 Enter"
+    }
+  ]
+}
